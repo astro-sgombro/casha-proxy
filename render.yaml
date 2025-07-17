@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: domuscheck-proxy
+    env: python
+    buildCommand: ""
+    startCommand: "python idealista_proxy_server.py"
+    plan: free
